@@ -10,8 +10,7 @@ public class PrimeFactorization {
         }
         for (int i = 3; i <= a; i += 2) {
             if (a % i == 0) {
-                System.out.println(a /
-                     i);
+                System.out.println(a / i);
                 return;
             }
         }
